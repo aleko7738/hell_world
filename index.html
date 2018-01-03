@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lemon Print</title>
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-responsive.min.css" media="screen">
+
+	<link rel="stylesheet" href="css/style.css" media="screen">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container page-wrapper">
+		<div class="bg-gradient"></div>
+		<div class="row header-wrapper">
+			<div class="col-sm-2 logo-wrapper">
+				<a href="#"><img src="img/logo.png" alt="Lemon Print"></a>
+			</div>
+			<div class="col-sm-10 menu-wrapper">
+				<div class="contacts">
+					<div>
+						<a href="#">gerasimenkokate@yandex.ru</a>
+					</div>
+					<div>
+						<a href="#"><img src="img/phone.jpg" alt="phone"> +38 (050) 98062 46</a>
+					</div>
+				</div>
+				<nav class="navbar navbar-default">
+				  <div class=""> <!-- container -->
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span> 
+				      </button>
+				    </div>
+				    <div class="collapse navbar-collapse" id="myNavbar">
+				      <ul class="nav navbar-nav navbar-right main-menu">
+				        <li><a href="#about">Главная</a></li>
+				        <li class="dropdown">
+					        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Услуги
+					        <span class="caret"></span></a>
+					        <ul class="dropdown-menu my_dropdown-menu">
+					          <li><a href="#">Цифровая печать</a></li>
+					          <li><a href="#">Офсетная печать</a></li>
+					          <li><a href="#">Плоттер</a></li>
+					        </ul>
+      					</li>
+				        <li><a href="#">Продукция</a></li>
+				        <li><a href="#">О компании</a></li>
+				        <li><a href="#">Контакты</a></li>
+				        <li><a href="#">Клиентам</a></li>
+				        <li class="dropdown">
+				        	<a class="dropdown-toggle" data-toggle="dropdown" href="#">Регистрация
+					        <span class="caret"></span>
+					        <div id="my-form">
+						        <form action="/action_page.php">
+								  <div class="form-group">
+								    <input type="name" class="form-control" id="name" value="Ваше имя">
+								  </div>
+								  <div class="form-group">
+								    <input type="email" class="form-control" id="email" value="Email или телефон">
+								  </div>
+								  <button type="submit" class="btn btn-default">Зарегистрироваться</button>
+								</form>
+							</div>
+					    	</a>
+					    </li>
+				      </ul>
+				    </div>
+				  </div>
+				</nav>
+			</div>
+		</div>
+		<!-- Carousel starts -->
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="img/caroussel-lemon.png" alt="Lemon">
+        <div class="carousel-caption">
+          <h3>Типография <span>Orange</span> Print</h3>
+          <p>Полиграфические услуги, <br>визитки заказывайте у нас</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/caroussel-lemon.png" alt="Lemon">
+        <div class="carousel-caption">
+          <h3>Типография <span>Lemon</span> Print</h3>
+          <p>Полиграфические услуги, <br>буклеты заказывайте у нас</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="img/caroussel-lemon.png" alt="Lemon">
+        <div class="carousel-caption">
+          <h3>Типография <span>Kiwi</span> Print</h3>
+          <p>Полиграфические услуги, <br>конверты заказывайте у нас</p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+		<!-- Carousel ends -->
+		<!-- Main starts -->
+		<div class="row main">
+			
+			<aside class="col-sm-3">
+				<h5><div class="grad-rect"></div>Lemon <span>Новости</span></h5>
+				<div class="panel-group">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<div class="panel-body-pic">
+								<img src="img/news.png" alt="">
+							</div>
+							<div><p><span>Что нужно знать маркетологам при применении фирменного стиля в POS-материалах</span><br>
+							При любом варианте необходимо продумывать несколько вариантов сразу</p>
+							</div>
+						</div>
+						<div class="panel-footer"><a href="#"><span class="glyphicon glyphicon-play" aria-hidden="true"></span> подробнее</a></div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<div class="panel-body-pic">
+								<img src="img/news.png" alt="">
+							</div>
+							<div><p><span>Что нужно знать маркетологам при применении фирменного стиля в POS-материалах</span><br>
+							При любом варианте необходимо продумывать несколько вариантов сразу</p>
+							</div>
+						</div>
+						<div class="panel-footer"><a href="#"><span class="glyphicon glyphicon-play" aria-hidden="true"></span> подробнее</a></div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<div class="panel-body-pic">
+								<img src="img/news.png" alt="">
+							</div>
+							<div><p><span>Что нужно знать маркетологам при применении фирменного стиля в POS-материалах</span><br>
+							При любом варианте необходимо продумывать несколько вариантов сразу</p>
+							</div>
+						</div>
+						<div class="panel-footer"><a href="#"><span class="glyphicon glyphicon-play" aria-hidden="true"></span> подробнее</a></div>
+					</div>
+				</div>
+			</aside>
+			<section class="col-sm-9 goods-wrapper">
+				<div class="good-item">
+					<h5><div class="grad-rect"></div>
+					Lemon<span> Визитки</span></h5>
+					<div class="good-item-description">
+						<div class="good-item-pic">
+							<img src="img/good001.png" alt="">
+						</div>
+						<div class="good-item-price">
+							<p>Тираж: <span>100</span><br>
+							Цена: <span>29</span> грн.</p>
+							<p>Тираж: <span>1000</span><br>
+							Цена: <span>99</span> грн.</p>
+						</div>
+					</div>
+				</div>
+				<div class="good-item">
+					<h5><div class="grad-rect"></div>Lemon<span> Флаеры</span></h5>
+					<div class="good-item-description">
+						<div class="good-item-pic">
+							<img src="img/good002.png" alt="">
+						</div>
+						<div class="good-item-price">
+							<p>Тираж: <span>100</span><br>
+							Цена: <span>29</span> грн.</p>
+							<p>Тираж: <span>1000</span><br>
+							Цена: <span>99</span> грн.</p>
+						</div>
+					</div>
+				</div>
+				<div class="good-item">
+					<h5><div class="grad-rect"></div>Lemon<span> Листовки</span></h5>
+					<div class="good-item-description">
+						<div class="good-item-pic">
+							<img src="img/good003.png" alt="">
+						</div>
+						<div class="good-item-price">
+							<p>Тираж: <span>100</span><br>
+							Цена: <span>29</span> грн.</p>
+							<p>Тираж: <span>1000</span><br>
+							Цена: <span>99</span> грн.</p>
+						</div>
+					</div>
+				</div>
+		
+				<div class="good-item">
+					<h5><div class="grad-rect"></div>Lemon<span> Листовки</span></h5>
+					<div class="good-item-description">
+						<div class="good-item-pic">
+							<img src="img/good004.png" alt="">
+						</div>
+						<div class="good-item-price">
+							<p>Тираж: <span>100</span><br>
+							Цена: <span>29</span> грн.</p>
+							<p>Тираж: <span>1000</span><br>
+							Цена: <span>99</span> грн.</p>
+						</div>
+					</div>
+				</div>
+		
+				<div class="good-item">
+					<h5><div class="grad-rect"></div>Lemon<span> Листовки</span></h5>
+					<div class="good-item-description">
+						<div class="good-item-pic">
+							<img src="img/good005.png" alt="">
+						</div>
+						<div class="good-item-price">
+							<p>Тираж: <span>100</span><br>
+							Цена: <span>29</span> грн.</p>
+							<p>Тираж: <span>1000</span><br>
+							Цена: <span>99</span> грн.</p>
+						</div>
+					</div>
+				</div>
+		
+				<div class="good-item">
+					<h5><div class="grad-rect"></div>Lemon<span> Листовки</span></h5>
+					<div class="good-item-description">
+						<div class="good-item-pic">
+							<img src="img/good006.png" alt="">
+						</div>
+						<div class="good-item-price">
+							<p>Тираж: <span>100</span><br>
+							Цена: <span>29</span> грн.</p>
+							<p>Тираж: <span>1000</span><br>
+							Цена: <span>99</span> грн.</p>
+						</div>
+					</div>
+				</div>
+		
+				<div class="good-item">
+					<h5><div class="grad-rect"></div>Lemon<span> Листовки</span></h5>
+					<div class="good-item-description">
+						<div class="good-item-pic">
+							<img src="img/good007.png" alt="">
+						</div>
+						<div class="good-item-price">
+							<p>Тираж: <span>100</span><br>
+							Цена: <span>29</span> грн.</p>
+							<p>Тираж: <span>1000</span><br>
+							Цена: <span>99</span> грн.</p>
+						</div>
+					</div>
+				</div>
+		
+				<div class="good-item">
+					<h5><div class="grad-rect"></div>Lemon<span> Листовки</span></h5>
+					<div class="good-item-description">
+						<div class="good-item-pic">
+							<img src="img/good008.png" alt="">
+						</div>
+						<div class="good-item-price">
+							<p>Тираж: <span>100</span><br>
+							Цена: <span>29</span> грн.</p>
+							<p>Тираж: <span>1000</span><br>
+							Цена: <span>99</span> грн.</p>
+						</div>
+					</div>
+				</div>
+		
+				<div class="good-item">
+					<h5><div class="grad-rect"></div>Lemon<span> Листовки</span></h5>
+					<div class="good-item-description">
+						<div class="good-item-pic">
+							<img src="img/good009.png" alt="">
+						</div>
+						<div class="good-item-price">
+							<p>Тираж: <span>100</span><br>
+							Цена: <span>29</span> грн.</p>
+							<p>Тираж: <span>1000</span><br>
+							Цена: <span>99</span> грн.</p>
+						</div>
+					</div>
+				</div>
+		
+				<div class="good-item">
+					<h5><div class="grad-rect"></div>Lemon<span> Листовки</span></h5>
+					<div class="good-item-description">
+						<div class="good-item-pic">
+							<img src="img/good010.png" alt="">
+						</div>
+						<div class="good-item-price">
+							<p>Тираж: <span>100</span><br>
+							Цена: <span>29</span> грн.</p>
+							<p>Тираж: <span>1000</span><br>
+							Цена: <span>99</span> грн.</p>
+						</div>
+					</div>
+				</div>
+		
+				<div class="good-item">
+					<h5><div class="grad-rect"></div>Lemon<span> Листовки</span></h5>
+					<div class="good-item-description">
+						<div class="good-item-pic">
+							<img src="img/good011.png" alt="">
+						</div>
+						<div class="good-item-price">
+							<p>Тираж: <span>100</span><br>
+							Цена: <span>29</span> грн.</p>
+							<p>Тираж: <span>1000</span><br>
+							Цена: <span>99</span> грн.</p>
+						</div>
+					</div>
+				</div>
+		
+				<div class="good-item">
+					<h5><div class="grad-rect"></div>Lemon<span> Листовки</span></h5>
+					<div class="good-item-description">
+						<div class="good-item-pic">
+							<img src="img/good012.png" alt="">
+						</div>
+						<div class="good-item-price">
+							<p>Тираж: <span>100</span><br>
+							Цена: <span>29</span> грн.</p>
+							<p>Тираж: <span>1000</span><br>
+							Цена: <span>99</span> грн.</p>
+						</div>
+					</div>
+				</div>
+		
+		</div>
+		</section>
+		<!-- Main ends -->
+		<footer>
+			<p>&copy 2014 Полиграфия Lemon Print</p>
+		</footer>
+	</div>
+</body>
+</html>
